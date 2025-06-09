@@ -1,7 +1,5 @@
 const express = require('express');
 const users = require('./users_data.js');
-const { error } = require('console');
-const { func } = require('joi');
 
 const app = express();
 app.use(express.json());
